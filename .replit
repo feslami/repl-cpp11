@@ -1,2 +1,2 @@
 language = "cpp"
-run = "mkdir build && cmake -D CMAKE_BUILD_TYPE=Debug .. && cmake --build . && foo"
+run = "chmod +x ./repl-build.sh && ./repl-build.sh"
