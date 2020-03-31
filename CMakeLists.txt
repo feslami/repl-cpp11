@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.10)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED 17)
 
-project(ReplExample)
+project(ReplCpp11)
 
 add_executable(repl-example
   src/main.cpp
