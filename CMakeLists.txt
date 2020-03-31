@@ -7,19 +7,12 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 project(ReplCpp11)
 
 add_executable(repl-example
-  app/main.cpp
+  main.cpp
 )
-target_link_libraries(repl-example PRIVATE music)
 
-add_subdirectory(src/music)
+find_package(Threads)
+
+target_link_libraries(repl-example PRIVATE Threads::Threads)
 
 include(CTest)
-add_subdirectory(src/music/tests)
 add_test(NAME run_executable COMMAND repl-example)
-
-# include(CPack)
-# include(GNUInstallDirs)
-
-# install(TARGETS foo
-#   RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
-# )
