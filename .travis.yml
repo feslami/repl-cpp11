@@ -1,0 +1,23 @@
+dist: bionic
+sudo: required
+
+language:
+  - cpp
+
+compiler:
+  - gcc
+
+addons:
+  apt:
+    packages:
+      - gcc
+      - g++
+      - cmake
+
+script:
+  # Check versions of gcc, g++ and cmake
+  - gcc -v && g++ -v && cmake --version
+  # Run your build commands next
+  - mkdir -p build && cd build
+  - cmake -D CMAKE_BUILD_TYPE=RelWithDebInfo ..
+  - cmake --build .
