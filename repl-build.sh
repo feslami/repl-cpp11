@@ -11,3 +11,6 @@ ctest
 # cpack
 
 cd ..
+
+echo "Built and successfully passed tests."
+echo "run the executable directly by typing ./build/repl-example"
