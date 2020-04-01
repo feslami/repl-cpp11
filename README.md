@@ -7,7 +7,7 @@ correct project information for autocomplete, code-navigation, and C++ standard 
 
 How to use: 
  1. Create and clone a repl project by clicking
-    [![Run on Repl.it](https://repl.it/badge/github/JeremyBorys/repl-cpp11)]
+    ![Run on Repl.it](https://repl.it/badge/github/JeremyBorys/repl-cpp11)
  2. Configure and build environment first by clicking "run"
  3. Refresh the IDE every configure and generate as cquery only reads
       compile_commands.json once on load (I could be wrong)
