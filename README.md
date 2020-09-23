@@ -1,3 +1,6 @@
+
+# Please click the file directory to the left and head to main.cpp!
+
 [![Build Status](https://travis-ci.org/JeremyBorys/repl-cpp11.svg?branch=master)](https://travis-ci.org/JeremyBorys/repl-cpp11) [![Run on Repl.it](https://repl.it/badge/github/JeremyBorys/repl-cpp11)](https://repl.it/github/JeremyBorys/repl-cpp11)
 
 # C++ hello world targetted to repl.it online IDE
