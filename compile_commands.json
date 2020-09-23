@@ -1,1 +1,7 @@
-/home/runner/build/compile_commands.json
+[
+{
+  "directory": "/home/runner/build",
+  "command": "/usr/bin/c++    -g   -std=gnu++1z -o CMakeFiles/repl-example.dir/main.cpp.o -c /home/runner/repl-cpp11-1/main.cpp",
+  "file": "/home/runner/repl-cpp11-1/main.cpp"
+}
+]
