@@ -1,7 +1,7 @@
 
 # Please click the file directory to the left and head to main.cpp!
 
-[![Build Status](https://travis-ci.org/JeremyBorys/repl-cpp11.svg?branch=master)](https://travis-ci.org/JeremyBorys/repl-cpp11) [![Run on Repl.it](https://repl.it/badge/github/JeremyBorys/repl-cpp11)](https://repl.it/github/JeremyBorys/repl-cpp11)
+[![Build Status](https://travis-ci.org/feslami/repl-cpp11.svg?branch=master)](https://travis-ci.org/feslami/repl-cpp11) [![Run on Repl.it](https://repl.it/badge/github/JeremyBorys/repl-cpp11)](https://repl.it/github/feslami/repl-cpp11)
 
 # C++ hello world targetted to repl.it online IDE
 
@@ -10,7 +10,7 @@ correct project information for autocomplete, code-navigation, and C++ standard 
 
 How to use: 
  1. Create and clone a repl project by clicking
-    ![Run on Repl.it](https://repl.it/badge/github/JeremyBorys/repl-cpp11)
+    ![Run on Repl.it](https://repl.it/badge/github/feslami/repl-cpp11)
  2. Configure and build environment first by clicking "run"
  3. Refresh the IDE every configure and generate as cquery only reads
       compile_commands.json once on load (I could be wrong)
