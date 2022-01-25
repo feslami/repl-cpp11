@@ -1,6 +1,7 @@
 set -e
 
 sourceDir=$(pwd)
+git submodule update --recursive --init
 mkdir -p ../build && cd ../build
 
 cmake -D CMAKE_BUILD_TYPE=Debug -G Ninja $sourceDir
@@ -8,7 +9,7 @@ cmake --build .
 
 echo ""
 
-ctest
+ctest -T Test --verbose
 # cpack
 
 cd ..
